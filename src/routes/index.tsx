@@ -112,8 +112,8 @@ function Index() {
         <h1 className="text-5xl md:text-8xl font-black mb-8 text-white leading-[0.9] tracking-tighter">
           Crie um assistente de IA que interage com você como nos <span className="text-[#00ff66] drop-shadow-[0_0_15px_rgba(0,255,102,0.5)]">FILMES</span>
         </h1>
-        <p className="text-xl md:text-3xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed">
-          Capaz de <span className="text-[#00ff66] font-bold">enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66] font-bold">Tudo por voz</span>
+        <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed font-light tracking-tight">
+          Capaz de <span className="text-[#00ff66]">enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66]">Tudo por voz</span>
           <br /><br />
           Não é necessário ter conhecimento em programação
         </p>
