@@ -89,36 +89,36 @@ function Index() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-[#00ff66] selection:text-black scroll-smooth">
+    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-[#00ff66] selection:text-black scroll-smooth max-w-[900px] mx-auto border-x border-[#00ff66]/10 shadow-[0_0_100px_rgba(0,0,0,0.8)]">
       <MatrixRain />
       
       {/* Header */}
-      <nav className="fixed w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#00ff66]/20">
+      <nav className="sticky top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#00ff66]/20">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-[#00ff66] tracking-tighter">ALFRED VISION</h1>
+          <a href="#" className="text-2xl font-black text-[#00ff66] tracking-tighter">ALFRED VISION</a>
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest text-gray-400">
             <a href="#recursos" className="hover:text-[#00ff66] transition-colors">Recursos</a>
             <a href="#oferta" className="hover:text-[#00ff66] transition-colors">Oferta</a>
             <a href="#faq" className="hover:text-[#00ff66] transition-colors">FAQ</a>
           </div>
-          <button onClick={handleCtaClick} className="bg-gradient-to-b from-transparent to-black border border-[#00ff66] text-[#00ff66] px-4 py-1.5 rounded-full hover:from-[#00ff66] hover:to-[#006629] hover:text-black transition-all font-bold text-[10px] uppercase cursor-pointer">
-            QUERO O MEU
+          <button onClick={handleCtaClick} className="text-[10px] font-black border border-[#00ff66] text-[#00ff66] px-4 py-1.5 rounded-full bg-gradient-to-b from-transparent to-black hover:from-[#00ff66] hover:to-[#006629] hover:text-black transition-all cursor-pointer uppercase">
+            MATRICULE-SE
           </button>
         </div>
       </nav>
 
       {/* Hero */}
-      <section className="pt-40 pb-20 container mx-auto px-6 text-center relative z-10">
-        <h1 className="text-5xl md:text-8xl font-black mb-8 text-white leading-[0.9] tracking-tighter">
-          Crie um assistente de IA que interage com você como nos <span className="text-[#00ff66] drop-shadow-[0_0_15px_rgba(0,255,102,0.5)]">FILMES</span>
+      <section className="pt-20 pb-20 container mx-auto px-6 text-center relative z-10">
+        <h1 className="text-4xl md:text-5xl font-black mb-4 text-white leading-[0.95] tracking-[-0.04em] uppercase">
+          IA que <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">interage</span> como nos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">filmes</span>
         </h1>
-        <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed font-thin tracking-tight opacity-80">
+        <p className="text-base md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto font-extralight leading-relaxed tracking-tight opacity-90">
           Capaz de <span className="text-[#00ff66]">enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66]">Tudo por voz</span>
           <br /><br />
           Não é necessário ter conhecimento em programação
         </p>
         
-        <div className="mb-16 aspect-[9/16] max-w-[340px] mx-auto bg-black/50 border border-[#00ff66]/20 rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] relative group">
+        <div className="mb-10 aspect-[9/16] max-w-[340px] mx-auto bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl relative group p-1.5 cursor-pointer">
           {!isVideoStarted ? (
             <div 
               className="absolute inset-0 z-20 bg-black flex flex-col items-center justify-center cursor-pointer"
@@ -161,9 +161,9 @@ function Index() {
 
         <button 
           onClick={handleCtaClick}
-          className="inline-block bg-[#00ff66] text-black font-black text-2xl px-12 py-6 rounded-full hover:shadow-[0_0_40px_rgba(0,255,102,0.8)] transition-all transform hover:scale-105 uppercase tracking-tighter cursor-pointer"
+          className="inline-block bg-gradient-to-b from-[#00ff66] to-[#006629] text-black font-black text-base md:text-lg px-8 py-3 rounded-full shadow-[0_0_15px_rgba(0,255,102,0.2)] hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,102,0.4)] transition-all uppercase cursor-pointer"
         >
-          QUERO CRIAR MEU ALFRED
+          CRIAR MEU ALFRED AGORA
         </button>
       </section>
 
@@ -172,32 +172,38 @@ function Index() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter uppercase leading-none">
-                O Cérebro da sua <span className="text-[#00ff66]">CASA INTELIGENTE</span>
+              <h2 className="text-3xl md:text-4xl font-black mb-4 tracking-tighter uppercase leading-[0.95]">
+                O Cérebro da sua <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase">Smart Home</span>
               </h2>
-              <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-                Imagine controlar luzes, temperatura, câmeras de segurança e aparelhos domésticos com um simples comando de voz ou até mesmo através da detecção de presença e gestos.
+              <p className="text-sm text-gray-400 mb-6 leading-relaxed max-w-2xl">
+                Esqueça comandos robóticos. Controle luzes, segurança e eletrodomésticos através de diálogos naturais ou visão computacional.
               </p>
-              <ul className="space-y-4 text-gray-300">
-                <li className="flex items-center gap-3">
-                  <span className="text-[#00ff66]">▶</span> Integração direta com sistemas IoT e assistentes domésticos.
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-[#00ff66]">▶</span> Automação baseada em visão: o Alfred reconhece quando você entra na sala.
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-[#00ff66]">▶</span> Comandos personalizados para rotinas complexas de segurança e conforto.
-                </li>
-              </ul>
+              <div className="grid grid-cols-1 gap-4 text-gray-300 text-xs mt-8">
+                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                  <span>Integração total com dispositivos IoT</span>
+                </div>
+                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                  <span>Automação por reconhecimento de gestos</span>
+                </div>
+                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                  <span>Rotinas inteligentes personalizadas</span>
+                </div>
+              </div>
             </div>
-            <div className="md:w-1/2 glass-card border-[#00ff66]/30 p-0 overflow-hidden relative group">
+            <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
               <img 
                 src="/sala.png" 
-                alt="Dashboard Alfred" 
+                alt="Automação Residencial ALFRED VISION" 
                 className="w-full h-auto block transition-all duration-500"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+              <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
+                <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Dashboard Alfred Vision Home</p>
+              </div>
             </div>
           </div>
         </div>
@@ -206,24 +212,24 @@ function Index() {
       {/* Recursos */}
       <section id="recursos" className="py-24 bg-black/40 relative z-10">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-16 text-center tracking-tighter uppercase">Recursos <span className="text-[#00ff66]">Elite</span></h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <h2 className="text-3xl md:text-4xl font-black mb-12 text-center tracking-tighter uppercase">Recursos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Elite</span></h2>
+          <div className="grid md:grid-cols-3 gap-6">
             {features.map((f, i) => (
-              <div key={i} className="bg-[#111] border border-[#00ff66]/20 p-8 rounded-2xl hover:border-[#00ff66] transition-all group">
-                <div className="text-[#00ff66] mb-6 group-hover:scale-110 transition-transform">
+              <div key={i} className="bg-black/40 border border-[#00ff66]/20 backdrop-blur-md p-6 rounded-2xl transition-all duration-300 hover:border-[#00ff66]/50 hover:shadow-[0_0_20px_rgba(0,255,102,0.1)] group">
+                <div className="text-[#00ff66] mb-4 group-hover:scale-110 transition-transform">
                   {f.icon}
                 </div>
-                <h3 className="text-xl font-bold mb-4 bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase tracking-tighter">{f.title}</h3>
-                <p className="text-gray-400 leading-relaxed">{f.desc}</p>
+                <h3 className="text-base font-bold mb-3 bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase tracking-tighter">{f.title}</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{f.desc}</p>
               </div>
             ))}
           </div>
           
           <div className="mt-20 max-w-3xl mx-auto text-center border-t border-[#00ff66]/10 pt-16">
-            <h3 className="text-3xl font-black mb-8 tracking-tighter uppercase text-white">Mas isso já não existe?</h3>
-            <div className="space-y-6 text-xl text-gray-400 leading-relaxed font-thin tracking-tight opacity-80">
+            <h3 className="text-2xl font-black mb-6 tracking-tighter uppercase text-white">Mas isso já não existe?</h3>
+            <div className="space-y-6 text-xl text-gray-400 leading-relaxed font-extralight tracking-tight opacity-90">
               <p>A maioria das IAs disponíveis são plataformas prontas e caras. Você utiliza apenas os recursos prontos que elas oferecem.</p>
-              <p className="text-white font-bold">Com o ALFRED é diferente.</p>
+              <p className="text-white font-bold uppercase tracking-tight">Com o ALFRED é diferente.</p>
               <p>Você vai ter um assistente de IA surpreendente, utilizando uma das tecnologias mais avançadas da atualidade, capaz de interagir com você em tempo real enquanto trabalha, navega, joga ou estuda — como nos filmes</p>
             </div>
           </div>
@@ -232,48 +238,49 @@ function Index() {
 
       {/* Oferta */}
       <section id="oferta" className="py-12 container mx-auto px-6 text-center relative z-10">
-        <div className="max-w-xl mx-auto bg-gradient-to-b from-[#111] to-black border-2 border-[#00ff66] p-6 md:p-8 rounded-[2.5rem] shadow-[0_0_60px_rgba(0,255,102,0.15)]">
-          <span className="text-[#00ff66] font-bold tracking-[0.3em] uppercase mb-3 block text-[8px]">Oferta Exclusiva</span>
-          <h2 className="text-2xl md:text-4xl font-black mb-3 tracking-tighter">ACESSO VITALÍCIO</h2>
+        <div className="max-w-xl mx-auto bg-gradient-to-b from-[#111] to-[#006629]/20 border border-[#00ff66] p-6 md:p-8 rounded-[2.5rem] shadow-[0_0_60px_rgba(0,255,102,0.1)] relative overflow-hidden">
+          <div className="absolute top-0 right-0 bg-[#00ff66] text-black font-black px-6 py-1.5 text-[8px] -rotate-45 translate-x-10 translate-y-6 uppercase">Vagas Limitadas</div>
+          <span className="text-[#00ff66] font-black tracking-[0.4em] uppercase mb-3 block text-[10px]">Acesso Vitalício + Bônus</span>
+          <h2 className="text-2xl md:text-4xl font-black mb-4 tracking-tighter uppercase">Oferta <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Elite</span></h2>
           <p className="text-gray-400 text-sm mb-6">Inclui 6 videoaulas práticas, suporte exclusivo e garantia total.</p>
           
           <div className="mb-6">
             <p className="text-gray-500 line-through text-base mb-1 font-bold italic">De R$ 399,00</p>
             <p className="text-lg text-white mb-1 uppercase tracking-widest">Por apenas</p>
-            <p className="text-4xl md:text-6xl font-black text-[#00ff66]">12x R$ 20,37</p>
+            <p className="text-4xl md:text-6xl font-black bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent leading-none mb-3">12x R$ 20,37</p>
             <p className="text-base text-gray-400 mt-2 font-bold uppercase tracking-widest">ou R$ 197,00 à vista</p>
           </div>
 
           <button 
             onClick={handleCtaClick}
-            className="w-auto inline-block bg-gradient-to-b from-[#00ff66] to-[#006629] text-black font-black text-[12px] px-8 py-3 rounded-2xl hover:shadow-[0_0_50px_rgba(0,255,102,0.6)] transition-all transform hover:scale-105 uppercase cursor-pointer"
+            className="w-auto inline-block bg-gradient-to-b from-[#00ff66] to-[#006629] text-black font-black text-[12px] px-8 py-3 rounded-2xl shadow-[0_0_15px_rgba(0,255,102,0.2)] hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,102,0.4)] transition-all uppercase cursor-pointer"
           >
-            GARANTIR MINHA VAGA AGORA
+            GARANTIR MEU ALFRED
           </button>
           
           <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm font-bold text-gray-500 uppercase tracking-widest">
-            <span>✓ Acesso Imediato</span>
-            <span>✓ 7 Dias de Garantia</span>
-            <span>✓ Suporte VIP</span>
+            <span>✓ 6 Aulas Práticas</span>
+            <span>✓ Garantia Incondicional</span>
+            <span>✓ Suporte na Comunidade</span>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="py-24 container mx-auto px-6 relative z-10">
-        <h2 className="text-4xl font-black mb-16 text-center tracking-tighter uppercase">Dúvidas <span className="text-[#00ff66]">Comuns</span></h2>
+      <section id="faq" className="py-24 container mx-auto px-6 relative z-10 border-t border-[#00ff66]/10">
+        <h2 className="text-3xl font-black mb-12 text-center tracking-tighter uppercase">Dúvidas <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Comuns</span></h2>
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, i) => (
             <div key={i} className="border border-[#00ff66]/20 rounded-xl overflow-hidden">
               <button 
                 onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                className="w-full p-6 text-left flex justify-between items-center hover:bg-[#00ff66]/5 transition-colors"
+                className="w-full p-4 text-left flex justify-between items-center hover:bg-[#00ff66]/5 transition-colors"
               >
-                <span className="font-bold text-lg">{faq.q}</span>
+                <span className="font-bold text-base">{faq.q}</span>
                 <span className={`text-[#00ff66] text-2xl transition-transform ${openFaq === i ? 'rotate-45' : ''}`}>+</span>
               </button>
               {openFaq === i && (
-                <div className="p-6 pt-0 text-gray-400 border-t border-[#00ff66]/10 bg-black/20">
+                <div className="p-4 pt-0 text-gray-400 text-sm border-t border-[#00ff66]/10 bg-black/20">
                   {faq.a}
                 </div>
               )}
@@ -286,8 +293,8 @@ function Index() {
       <footer className="py-20 border-t border-[#00ff66]/10 relative z-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
           <div>
-            <h2 className="text-2xl font-black text-[#00ff66] mb-2 tracking-tighter">ALFRED VISION</h2>
-            <p className="text-gray-500 text-sm">Transformando a interação homem-máquina através da IA.</p>
+            <h2 className="text-3xl font-black bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent mb-4 tracking-tighter uppercase">ALFRED VISION</h2>
+            <p className="text-gray-600 text-[10px] font-bold uppercase tracking-[0.3em] mb-4">© 2026 ALFRED VISION. Pioneirismo em IA Pessoal.</p>
           </div>
           <div className="flex gap-8 text-gray-500 text-sm font-bold uppercase tracking-widest">
             <a href="#" className="hover:text-white transition-colors">Termos</a>
