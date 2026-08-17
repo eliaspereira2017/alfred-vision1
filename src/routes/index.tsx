@@ -93,7 +93,7 @@ function Index() {
       <MatrixRain />
       
       {/* Header */}
-      <nav className="fixed w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#00ff66]/20">
+      <nav className="sticky top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#00ff66]/20">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="#" className="text-2xl font-black text-[#00ff66] tracking-tighter">ALFRED VISION</a>
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest text-gray-400">
