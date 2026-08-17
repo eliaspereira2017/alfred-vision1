@@ -173,7 +173,7 @@ function Index() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter uppercase leading-none">
-                O Cérebro da sua <span className="text-[#00ff66]">CASA INTELIGENTE</span>
+                O Cérebro da sua <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase">Smart Home</span>
               </h2>
               <p className="text-xl text-gray-400 mb-8 leading-relaxed">
                 Imagine controlar luzes, temperatura, câmeras de segurança e aparelhos domésticos com um simples comando de voz ou até mesmo através da detecção de presença e gestos.
