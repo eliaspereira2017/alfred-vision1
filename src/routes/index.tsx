@@ -161,7 +161,7 @@ function Index() {
 
         <button 
           onClick={handleCtaClick}
-          className="inline-block bg-[#00ff66] text-black font-black text-2xl px-12 py-6 rounded-full hover:shadow-[0_0_40px_rgba(0,255,102,0.8)] transition-all transform hover:scale-105 uppercase tracking-tighter cursor-pointer"
+          className="inline-block bg-gradient-to-b from-[#00ff66] to-[#006629] text-black font-black text-base md:text-lg px-8 py-3 rounded-full shadow-[0_0_15px_rgba(0,255,102,0.2)] hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,102,0.4)] transition-all uppercase cursor-pointer"
         >
           QUERO CRIAR MEU ALFRED
         </button>
