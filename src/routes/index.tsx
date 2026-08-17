@@ -101,8 +101,8 @@ function Index() {
             <a href="#oferta" className="hover:text-[#00ff66] transition-colors">Oferta</a>
             <a href="#faq" className="hover:text-[#00ff66] transition-colors">FAQ</a>
           </div>
-          <button onClick={handleCtaClick} className="bg-gradient-to-b from-transparent to-black border border-[#00ff66] text-[#00ff66] px-4 py-1.5 rounded-full hover:from-[#00ff66] hover:to-[#006629] hover:text-black transition-all font-bold text-[10px] uppercase cursor-pointer">
-            QUERO O MEU
+          <button onClick={handleCtaClick} className="text-[10px] font-black border border-[#00ff66] text-[#00ff66] px-4 py-1.5 rounded-full bg-gradient-to-b from-transparent to-black hover:from-[#00ff66] hover:to-[#006629] hover:text-black transition-all cursor-pointer uppercase">
+            MATRICULE-SE
           </button>
         </div>
       </nav>
