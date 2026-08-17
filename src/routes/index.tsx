@@ -89,7 +89,7 @@ function Index() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-[#00ff66] selection:text-black scroll-smooth">
+    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-[#00ff66] selection:text-black scroll-smooth max-w-[900px] mx-auto border-x border-[#00ff66]/10 shadow-[0_0_100px_rgba(0,0,0,0.8)]">
       <MatrixRain />
       
       {/* Header */}
