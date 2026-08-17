@@ -172,7 +172,7 @@ function Index() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter uppercase leading-none">
+              <h2 className="text-3xl md:text-4xl font-black mb-4 tracking-tighter uppercase leading-[0.95]">
                 O Cérebro da sua <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase">Smart Home</span>
               </h2>
               <p className="text-xl text-gray-400 mb-8 leading-relaxed">
