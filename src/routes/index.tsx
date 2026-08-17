@@ -175,8 +175,8 @@ function Index() {
               <h2 className="text-3xl md:text-4xl font-black mb-4 tracking-tighter uppercase leading-[0.95]">
                 O Cérebro da sua <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase">Smart Home</span>
               </h2>
-              <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-                Imagine controlar luzes, temperatura, câmeras de segurança e aparelhos domésticos com um simples comando de voz ou até mesmo através da detecção de presença e gestos.
+              <p className="text-sm text-gray-400 mb-6 leading-relaxed max-w-2xl">
+                Esqueça comandos robóticos. Controle luzes, segurança e eletrodomésticos através de diálogos naturais ou visão computacional.
               </p>
               <ul className="space-y-4 text-gray-300">
                 <li className="flex items-center gap-3">
