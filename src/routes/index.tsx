@@ -108,7 +108,7 @@ function Index() {
       </nav>
 
       {/* Hero */}
-      <section className="pt-40 pb-20 container mx-auto px-6 text-center relative z-10">
+      <section className="pt-20 pb-20 container mx-auto px-6 text-center relative z-10">
         <h1 className="text-4xl md:text-5xl font-black mb-4 text-white leading-[0.95] tracking-[-0.04em] uppercase">
           IA que <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">interage</span> como nos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">filmes</span>
         </h1>
