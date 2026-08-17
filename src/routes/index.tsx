@@ -219,8 +219,8 @@ function Index() {
                 <div className="text-[#00ff66] mb-4 group-hover:scale-110 transition-transform">
                   {f.icon}
                 </div>
-                <h3 className="text-xl font-bold mb-4 bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase tracking-tighter">{f.title}</h3>
-                <p className="text-gray-400 leading-relaxed">{f.desc}</p>
+                <h3 className="text-base font-bold mb-3 bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase tracking-tighter">{f.title}</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{f.desc}</p>
               </div>
             ))}
           </div>
