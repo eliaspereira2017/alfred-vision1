@@ -244,7 +244,7 @@ function Index() {
           <div className="mb-6">
             <p className="text-gray-500 line-through text-base mb-1 font-bold italic">De R$ 399,00</p>
             <p className="text-lg text-white mb-1 uppercase tracking-widest">Por apenas</p>
-            <p className="text-4xl md:text-6xl font-black text-[#00ff66]">12x R$ 20,37</p>
+            <p className="text-4xl md:text-6xl font-black bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent leading-none mb-3">12x R$ 20,37</p>
             <p className="text-base text-gray-400 mt-2 font-bold uppercase tracking-widest">ou R$ 197,00 à vista</p>
           </div>
 
