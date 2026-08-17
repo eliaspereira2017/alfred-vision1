@@ -212,8 +212,8 @@ function Index() {
       {/* Recursos */}
       <section id="recursos" className="py-24 bg-black/40 relative z-10">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-16 text-center tracking-tighter uppercase">Recursos <span className="text-[#00ff66]">Elite</span></h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <h2 className="text-3xl md:text-4xl font-black mb-12 text-center tracking-tighter uppercase">Recursos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Elite</span></h2>
+          <div className="grid md:grid-cols-3 gap-6">
             {features.map((f, i) => (
               <div key={i} className="bg-[#111] border border-[#00ff66]/20 p-8 rounded-2xl hover:border-[#00ff66] transition-all group">
                 <div className="text-[#00ff66] mb-6 group-hover:scale-110 transition-transform">
