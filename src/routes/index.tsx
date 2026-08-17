@@ -274,9 +274,9 @@ function Index() {
             <div key={i} className="border border-[#00ff66]/20 rounded-xl overflow-hidden">
               <button 
                 onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                className="w-full p-6 text-left flex justify-between items-center hover:bg-[#00ff66]/5 transition-colors"
+                className="w-full p-4 text-left flex justify-between items-center hover:bg-[#00ff66]/5 transition-colors"
               >
-                <span className="font-bold text-lg">{faq.q}</span>
+                <span className="font-bold text-base">{faq.q}</span>
                 <span className={`text-[#00ff66] text-2xl transition-transform ${openFaq === i ? 'rotate-45' : ''}`}>+</span>
               </button>
               {openFaq === i && (
