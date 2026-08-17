@@ -264,8 +264,8 @@ function Index() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="py-24 container mx-auto px-6 relative z-10">
-        <h2 className="text-4xl font-black mb-16 text-center tracking-tighter uppercase">Dúvidas <span className="text-[#00ff66]">Comuns</span></h2>
+      <section id="faq" className="py-24 container mx-auto px-6 relative z-10 border-t border-[#00ff66]/10">
+        <h2 className="text-4xl font-black mb-16 text-center tracking-tighter uppercase">Dúvidas <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Comuns</span></h2>
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, i) => (
             <div key={i} className="border border-[#00ff66]/20 rounded-xl overflow-hidden">
