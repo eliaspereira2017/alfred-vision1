@@ -178,17 +178,20 @@ function Index() {
               <p className="text-sm text-gray-400 mb-6 leading-relaxed max-w-2xl">
                 Esqueça comandos robóticos. Controle luzes, segurança e eletrodomésticos através de diálogos naturais ou visão computacional.
               </p>
-              <ul className="space-y-4 text-gray-300">
-                <li className="flex items-center gap-3">
-                  <span className="text-[#00ff66]">▶</span> Integração direta com sistemas IoT e assistentes domésticos.
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-[#00ff66]">▶</span> Automação baseada em visão: o Alfred reconhece quando você entra na sala.
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-[#00ff66]">▶</span> Comandos personalizados para rotinas complexas de segurança e conforto.
-                </li>
-              </ul>
+              <div className="grid grid-cols-1 gap-4 text-gray-300 text-xs mt-8">
+                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                  <span>Integração total com dispositivos IoT</span>
+                </div>
+                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                  <span>Automação por reconhecimento de gestos</span>
+                </div>
+                <div className="flex items-center gap-3 bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl p-4 transition-all duration-300 hover:border-[#00ff66]/50">
+                  <span className="text-[#00ff66] font-bold text-lg">✓</span>
+                  <span>Rotinas inteligentes personalizadas</span>
+                </div>
+              </div>
             </div>
             <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
               <img 
