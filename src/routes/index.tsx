@@ -118,7 +118,7 @@ function Index() {
           Não é necessário ter conhecimento em programação
         </p>
         
-        <div className="mb-16 aspect-[9/16] max-w-[340px] mx-auto bg-black/50 border border-[#00ff66]/20 rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] relative group">
+        <div className="mb-10 aspect-[9/16] max-w-[340px] mx-auto bg-black/40 border border-[#00ff66]/20 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl relative group p-1.5 cursor-pointer">
           {!isVideoStarted ? (
             <div 
               className="absolute inset-0 z-20 bg-black flex flex-col items-center justify-center cursor-pointer"
