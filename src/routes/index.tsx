@@ -256,9 +256,9 @@ function Index() {
           </button>
           
           <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm font-bold text-gray-500 uppercase tracking-widest">
-            <span>✓ Acesso Imediato</span>
-            <span>✓ 7 Dias de Garantia</span>
-            <span>✓ Suporte VIP</span>
+            <span>✓ 6 Aulas Práticas</span>
+            <span>✓ Garantia Incondicional</span>
+            <span>✓ Suporte na Comunidade</span>
           </div>
         </div>
       </section>
