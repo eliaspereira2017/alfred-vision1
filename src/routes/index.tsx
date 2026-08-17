@@ -120,8 +120,8 @@ function Index() {
         <h1 className="text-4xl md:text-5xl font-black mb-4 text-white leading-[0.95] tracking-[-0.04em] uppercase">
           IA que <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">interage</span> como nos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">filmes</span>
         </h1>
-        <p className="text-base md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto font-extralight leading-relaxed tracking-tight opacity-90">
-          Capaz de <span className="text-[#00ff66]">enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66]">Tudo por voz</span>
+        <p className="text-base md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto font-thin leading-relaxed tracking-tight opacity-90" style={{ fontWeight: 100 }}>
+          Capaz de <span className="text-[#00ff66] font-normal">enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66] font-normal">Tudo por voz</span>
           <br /><br />
           Não é necessário ter conhecimento em programação
         </p>
@@ -235,7 +235,7 @@ function Index() {
           
           <div className="mt-20 max-w-3xl mx-auto text-center border-t border-[#00ff66]/10 pt-16">
             <h3 className="text-2xl font-black mb-6 tracking-tighter uppercase text-white">Mas isso já não existe?</h3>
-            <div className="space-y-6 text-xl text-gray-400 leading-relaxed font-extralight tracking-tight opacity-90">
+            <div className="space-y-6 text-xl text-gray-400 leading-relaxed font-thin tracking-tight opacity-90" style={{ fontWeight: 100 }}>
               <p>A maioria das IAs disponíveis são plataformas prontas e caras. Você utiliza apenas os recursos prontos que elas oferecem.</p>
               <p className="text-white font-bold uppercase tracking-tight">Com o ALFRED é diferente.</p>
               <p>Você vai ter um assistente de IA surpreendente, utilizando uma das tecnologias mais avançadas da atualidade, capaz de interagir com você em tempo real enquanto trabalha, navega, joga ou estuda — como nos filmes</p>
