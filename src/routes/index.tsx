@@ -215,8 +215,8 @@ function Index() {
           <h2 className="text-3xl md:text-4xl font-black mb-12 text-center tracking-tighter uppercase">Recursos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Elite</span></h2>
           <div className="grid md:grid-cols-3 gap-6">
             {features.map((f, i) => (
-              <div key={i} className="bg-[#111] border border-[#00ff66]/20 p-8 rounded-2xl hover:border-[#00ff66] transition-all group">
-                <div className="text-[#00ff66] mb-6 group-hover:scale-110 transition-transform">
+              <div key={i} className="bg-black/40 border border-[#00ff66]/20 backdrop-blur-md p-6 rounded-2xl transition-all duration-300 hover:border-[#00ff66]/50 hover:shadow-[0_0_20px_rgba(0,255,102,0.1)] group">
+                <div className="text-[#00ff66] mb-4 group-hover:scale-110 transition-transform">
                   {f.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-4 bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent uppercase tracking-tighter">{f.title}</h3>
