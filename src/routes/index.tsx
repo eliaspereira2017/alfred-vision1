@@ -280,7 +280,7 @@ function Index() {
                 <span className={`text-[#00ff66] text-2xl transition-transform ${openFaq === i ? 'rotate-45' : ''}`}>+</span>
               </button>
               {openFaq === i && (
-                <div className="p-6 pt-0 text-gray-400 border-t border-[#00ff66]/10 bg-black/20">
+                <div className="p-4 pt-0 text-gray-400 text-sm border-t border-[#00ff66]/10 bg-black/20">
                   {faq.a}
                 </div>
               )}
