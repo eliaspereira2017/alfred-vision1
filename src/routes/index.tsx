@@ -190,14 +190,17 @@ function Index() {
                 </li>
               </ul>
             </div>
-            <div className="md:w-1/2 glass-card border-[#00ff66]/30 p-0 overflow-hidden relative group">
+            <div className="bg-black/40 border border-[#00ff66]/30 backdrop-blur-md rounded-2xl p-0 overflow-hidden relative group w-full mb-10 md:w-1/2">
               <img 
                 src="/sala.png" 
-                alt="Dashboard Alfred" 
+                alt="Automação Residencial ALFRED VISION" 
                 className="w-full h-auto block transition-all duration-500"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
+              <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
+                <p className="text-[10px] md:text-[12px] font-black uppercase tracking-[0.3em] text-[#00ff66]">Dashboard Alfred Vision Home</p>
+              </div>
             </div>
           </div>
         </div>
