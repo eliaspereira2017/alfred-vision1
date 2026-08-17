@@ -109,10 +109,10 @@ function Index() {
 
       {/* Hero */}
       <section className="pt-40 pb-20 container mx-auto px-6 text-center relative z-10">
-        <h1 className="text-5xl md:text-8xl font-black mb-8 text-white leading-[0.9] tracking-tighter">
-          Crie um assistente de IA que interage com você como nos <span className="text-[#00ff66] drop-shadow-[0_0_15px_rgba(0,255,102,0.5)]">FILMES</span>
+        <h1 className="text-4xl md:text-5xl font-black mb-4 text-white leading-[0.95] tracking-[-0.04em] uppercase">
+          IA que <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">interage</span> como nos <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">filmes</span>
         </h1>
-        <p className="text-lg md:text-2xl text-gray-400 mb-12 max-w-4xl mx-auto leading-relaxed font-thin tracking-tight opacity-80">
+        <p className="text-base md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto font-extralight leading-relaxed tracking-tight opacity-90">
           Capaz de <span className="text-[#00ff66]">enxergar o mundo</span> em tempo real, tela do computador, conversar naturalmente, escrever textos e automações inteligentes. <span className="text-[#00ff66]">Tudo por voz</span>
           <br /><br />
           Não é necessário ter conhecimento em programação
