@@ -290,8 +290,8 @@ function Index() {
       <footer className="py-20 border-t border-[#00ff66]/10 relative z-10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
           <div>
-            <h2 className="text-2xl font-black text-[#00ff66] mb-2 tracking-tighter">ALFRED VISION</h2>
-            <p className="text-gray-500 text-sm">Transformando a interação homem-máquina através da IA.</p>
+            <h2 className="text-3xl font-black bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent mb-4 tracking-tighter uppercase">ALFRED VISION</h2>
+            <p className="text-gray-600 text-[10px] font-bold uppercase tracking-[0.3em] mb-4">© 2026 ALFRED VISION. Pioneirismo em IA Pessoal.</p>
           </div>
           <div className="flex gap-8 text-gray-500 text-sm font-bold uppercase tracking-widest">
             <a href="#" className="hover:text-white transition-colors">Termos</a>
