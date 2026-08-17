@@ -221,7 +221,7 @@ function Index() {
           
           <div className="mt-20 max-w-3xl mx-auto text-center border-t border-[#00ff66]/10 pt-16">
             <h3 className="text-3xl font-black mb-8 tracking-tighter uppercase text-white">Mas isso já não existe?</h3>
-            <div className="space-y-6 text-xl text-gray-400 leading-relaxed">
+            <div className="space-y-6 text-xl text-gray-400 leading-relaxed font-thin tracking-tight opacity-80">
               <p>A maioria das IAs disponíveis são plataformas prontas e caras. Você utiliza apenas os recursos prontos que elas oferecem.</p>
               <p className="text-white font-bold">Com o ALFRED é diferente.</p>
               <p>Você vai ter um assistente de IA surpreendente, utilizando uma das tecnologias mais avançadas da atualidade, capaz de interagir com você em tempo real enquanto trabalha, navega, joga ou estuda — como nos filmes</p>
