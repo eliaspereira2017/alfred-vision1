@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MatrixRain } from "@/components/MatrixRain";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -9,9 +9,13 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Crie um assistente de IA que interage com você como nos filmes. Visão computacional, automação de tela e controle por voz." },
       { property: "og:title", content: "ALFRED VISION | Seu Assistente de IA Personalizado" },
       { property: "og:description", content: "Crie um assistente de IA que interage com você como nos filmes. Visão computacional, automação de tela e controle por voz." },
+      { property: "og:url", content: "https://alfred-vision1.lovable.app" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [
+      { rel: "canonical", href: "https://alfred-vision1.lovable.app" }
+    ]
   }),
   component: Index,
 });
@@ -19,6 +23,10 @@ export const Route = createFileRoute("/")({
 function Index() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [isVideoStarted, setIsVideoStarted] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleCtaClick = () => {
     window.open("https://go.hotmart.com/I107105867N?dp=1", "_blank", "noopener,noreferrer");
