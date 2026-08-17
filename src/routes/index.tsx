@@ -235,9 +235,10 @@ function Index() {
 
       {/* Oferta */}
       <section id="oferta" className="py-12 container mx-auto px-6 text-center relative z-10">
-        <div className="max-w-xl mx-auto bg-gradient-to-b from-[#111] to-black border-2 border-[#00ff66] p-6 md:p-8 rounded-[2.5rem] shadow-[0_0_60px_rgba(0,255,102,0.15)]">
-          <span className="text-[#00ff66] font-bold tracking-[0.3em] uppercase mb-3 block text-[8px]">Oferta Exclusiva</span>
-          <h2 className="text-2xl md:text-4xl font-black mb-3 tracking-tighter">ACESSO VITALÍCIO</h2>
+        <div className="max-w-xl mx-auto bg-gradient-to-b from-[#111] to-[#006629]/20 border border-[#00ff66] p-6 md:p-8 rounded-[2.5rem] shadow-[0_0_60px_rgba(0,255,102,0.1)] relative overflow-hidden">
+          <div className="absolute top-0 right-0 bg-[#00ff66] text-black font-black px-6 py-1.5 text-[8px] -rotate-45 translate-x-10 translate-y-6 uppercase">Vagas Limitadas</div>
+          <span className="text-[#00ff66] font-black tracking-[0.4em] uppercase mb-3 block text-[10px]">Acesso Vitalício + Bônus</span>
+          <h2 className="text-2xl md:text-4xl font-black mb-4 tracking-tighter uppercase">Oferta <span className="bg-gradient-to-b from-[#00ff66] to-[#006629] bg-clip-text text-transparent">Elite</span></h2>
           <p className="text-gray-400 text-sm mb-6">Inclui 6 videoaulas práticas, suporte exclusivo e garantia total.</p>
           
           <div className="mb-6">
