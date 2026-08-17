@@ -250,9 +250,9 @@ function Index() {
 
           <button 
             onClick={handleCtaClick}
-            className="w-auto inline-block bg-gradient-to-b from-[#00ff66] to-[#006629] text-black font-black text-[12px] px-8 py-3 rounded-2xl hover:shadow-[0_0_50px_rgba(0,255,102,0.6)] transition-all transform hover:scale-105 uppercase cursor-pointer"
+            className="w-auto inline-block bg-gradient-to-b from-[#00ff66] to-[#006629] text-black font-black text-[12px] px-8 py-3 rounded-2xl shadow-[0_0_15px_rgba(0,255,102,0.2)] hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,102,0.4)] transition-all uppercase cursor-pointer"
           >
-            GARANTIR MINHA VAGA AGORA
+            GARANTIR MEU ALFRED
           </button>
           
           <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm font-bold text-gray-500 uppercase tracking-widest">
